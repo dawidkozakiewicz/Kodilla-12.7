@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+}
+
+
+h1 {
+  font-size: 36px;
+  padding: 20px 0;
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+h1 {
+  background-color: black;
+}
+
+/* BUTTONS */
+
+.btn-delete,
+.card-delete {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin: 0;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.card-delete {
+  top: 5px;
+  left: 5px;
+}
+
+.card-delete span {
+  border-radius: 50px;
+  position: relative;
+  top: -8px;
+  left: -7px;
+}
+
+.btn-delete {
+  top: -54px;
+  left: 5px;
+}
+
+.btn-delete span {
+  border-radius: 50px;
+  position: relative;
+  top: -8px;
+  left: -7px;
+}
+
+.create-column {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+}
+
+.column-container {
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.column-container .column {
+  background-color: white;
+  border: 1px solid black;
+  min-width: 400px;
+  min-height: 400px;
+  margin: 15px 0;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  border-radius: 5px;
+}
+
+.column-container .column .column-title {
+  text-align: center;
+  background-color: #040404;
+  min-height: 50px;
+  margin-top: 0;
+  line-height: 50px;
+}
+
+.column-container .column .column-card-list {
+  list-style-type: none;
+  background-color: white;
+  padding: 0;
+  min-height: 400px;
+}
+
+.column-container .column .column-card-list .card {
+  background-color: white;
+  min-height: 100px;
+  width: 85%;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+
+.column-container .column .column-card-list .card p {
+  background-color: inherit;
+  padding: 10px 10px;
+}
